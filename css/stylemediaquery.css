@@ -2,7 +2,37 @@
 
     .container {
         width: 100%;
-        background-color: white;
     }
 
+}
+
+@media screen and (max-width: 568px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+
+    .col.col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .col.col-right {
+        width: 100%;
+    }
 }
